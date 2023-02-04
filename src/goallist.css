@@ -1,0 +1,155 @@
+:root
+{
+    --black: #272932;
+    --white: #FDFDFF;
+    --green: #50A060;
+}
+body{
+    height: 100%;
+    margin:0;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Alef',sans-serif;
+}
+
+.goals-text
+{
+    padding:2vw;
+    align-self: center;
+}
+.goals
+{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:0;
+}
+.goal
+{
+
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 1.5em;
+    border-width: 0.2vw;
+    border-color: var(--green);
+    border-style: solid;
+    margin: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 5vh;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.time
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.goal pre
+{
+    margin:0;
+}
+.goal .clock
+{
+    margin-top:0;
+}
+.goal h6
+{
+    margin:0;
+}
+.goal h2
+{
+    margin-bottom: 0;;
+}
+.goal hr
+{
+    margin-left: 0;
+    margin-right: 0;
+    background: var(--green);
+    height: 0.3vh;
+    width: 100%;;
+    border:none;
+}
+.extrabuttons
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.in-goal
+{
+    cursor: pointer;
+    transition-duration: 200ms;
+    margin-top: 1vh;
+    border-width: 0.2vw;
+    border-radius: 2em;
+    padding: 0.3em;
+    margin:0;
+    border-color: var(--green);
+    border-style: solid;
+    display: inline-block;
+    font-size: 2vh;
+}
+.in-goal:hover {
+    background-color: rgb(var(--green));
+    box-shadow: 0 0 rgba(var(--green), 0.4);
+}
+.submit:hover {
+    background-color: rgb(var(--verde));
+    box-shadow: 0 0 rgba(var(--alb), 0.4);
+}
+
+
+.extrabuttons a:link { text-decoration: none; }
+.extrabuttons a:visited { text-decoration: none; }
+.extrabuttons a:hover { text-decoration: none; }
+.extrabuttons a:active { text-decoration: none; }
+
+.addg
+{
+    max-width: 100%;
+    border-radius: 50%;
+    width: 13vh;
+    height: 13vh;
+    padding:0;
+    margin:2vw;
+    position:fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.addg:hover
+{
+    transform: scale(1.2);
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.addNewGoal {
+    background-color: rgb(var(--alb));
+    border-radius: 256px;
+    border: none;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    transition-duration: 0.2s;
+}
+
+.addNewGoal:hover {
+    transform: scale(2);
+}
+
+.addNewGoal > img {
+    height: 100px;
+    width: auto;
+}

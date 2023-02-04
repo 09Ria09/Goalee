@@ -1,0 +1,24 @@
+LOGIN PAGE
+
+cut eye:
+<a href="https://www.flaticon.com/free-icons/password" title="password icons">Password icons created by th studio - Flaticon</a>
+
+username:
+<a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a>
+
+key:
+<a href="https://www.flaticon.com/free-icons/password" title="password icons">Password icons created by Freepik - Flaticon</a>
+
+instagram:
+<a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Freepik - Flaticon</a>
+
+twitter:
+<a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Pixel perfect - Flaticon</a>
+
+info:
+<a href="https://www.flaticon.com/free-icons/info" title="info icons">Info icons created by Stockio - Flaticon</a>
+
+
+football gate                                    
+Icon by <a href="https://freeicons.io/profile/8939">Melvin ilham Oktaviansyah</a> on <a href="https://freeicons.io">freeicons.io</a>
+                                

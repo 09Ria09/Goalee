@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Goalee</title>
+  <icon></icon>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="newgoal.css">
+  <link rel="stylesheet" href="global.css">
+  <link rel="icon" type="image/x-icon" href="/../img/icon.png">
+</head>
+<body>
+  <div class="header">
+    <a href="goallist.html" style="height: 100%"><img src="../img/goalee-logo.png"></a>
+    <a href="goallist.html"><img src="../img/fbgate.png"></a>
+    <a class="logout" href = "../index.html"><p> Log out</p></a>
+  </div>
+    <h1 align = "center" style="margin: 5vh">Create a new goal</h1>
+    <div class="content">
+        <form class="left">
+          <label for="gname">Goal name:<br>
+          <input type="text" id="gname" name="gname" value="New Goal"><br>
+          </label>
+          <label for="description">Goal description (Remember to keep it <a href="https://en.wikipedia.org/wiki/SMART_criteria">SMART</a>)<br>
+          <textarea style="align-self:center;" id="description" name="description" rows="12" cols="50">A SMART goal should be Specific, Measurable, Assignable, Realistic and Time-specific.</textarea>
+          <br></label>
+          <label>Due Date:<br>
+          <input type = "date" id="date" name="date"><br></label>
+      </form>
+      <div class="left">
+      <form class="right-form">
+        <h3>How is your goal:</h3>
+        <div class="item">
+          <div class="circle" style="border-color: #EC3B58; background-color: #EC3B58;"><pre>S  </pre></div>
+          <div class="rectangle" style=" background-color: #EC3B58; border-color: #EC3B58;"><input type="text" value="pecific?"></div>
+        </div>
+        <div class="item">
+          <div class="circle" style="border-color: #E37B46; background-color: #E37B46;"><pre>M  </pre></div>
+          <div class="rectangle" style=" background-color: #E37B46; border-color: #E37B46;"><input type="text" value="easurable?"></div>
+        </div>
+        <div class="item">
+          <div class="circle" style="border-color: #F1CA53; background-color: #F1CA53;"><pre>A  </pre></div>
+          <div class="rectangle" style=" background-color: #F1CA53; border-color: #F1CA53;"><input type="text" value="ssignable?"></div>
+        </div>
+        <div class="item">
+          <div class="circle" style="border-color: #43B39B; background-color: #43B39B;"><pre>R  </pre></div>
+          <div class="rectangle" style=" background-color: #43B39B; border-color: #43B39B;"><input type="text" value="ealistic?"></div>
+        </div>
+        <div class="item">
+          <div class="circle" style="border-color: #324E5C; background-color: #324E5C;"><pre>T  </pre></div>
+          <div class="rectangle" style=" background-color: #324E5C; border-color: #324E5C;"><input type="text" value="ime-specific?"></div>
+        </div>
+        <input class="submit" type="submit" value="Calculate SMARTness">
+      </form>
+    </div>
+      </div>
+
+    </div>
+    
+
+    <a href="goallist.html"><img class="addg" src="../img/football.jpeg" alt = "add goal"></a>
+</body>
+</html>

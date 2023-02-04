@@ -1,0 +1,93 @@
+#leftSide,#rightSide {
+    flex-grow: 1;flex-basis: 0;
+}
+
+#rightSide{
+    padding-top: 1em;
+}
+
+#leftSide textarea{
+    min-width: 25vw;
+    min-height: 40vh;
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+.editForm{
+    padding-top: 3vh;
+    height: auto;
+}
+
+.editForm > div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.editForm > div > * {
+    margin: 10px;
+}
+
+.editForm table{
+    border-spacing: 10px;
+    margin: auto;
+}
+
+.editForm button{
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 10px;
+    transition-duration: 200ms;
+}
+
+.editForm > button{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.update{
+    background-color: rgb(var(--verde));
+}
+
+.delete{
+    background-color: red;
+    color: rgb(var(--alb));
+}
+
+.editForm button:active{
+    background-color: rgb(var(--negru)) !important;
+    color: rgb(var(--alb));
+}
+
+#rightSide > table >  * {
+    margin-right: 10px;
+    width: min-content;
+}
+
+#title{
+    font-size: 2em;
+    display: flex;
+}
+
+#title > div{
+    margin: auto;
+}
+
+#title input{
+    font-size: inherit;
+}
+
+.editForm input,.editForm  textarea,.editForm  select{
+    color: rgb(var(--verde));
+    background: rgba(136, 126, 126, 0.04);
+    padding: 5px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    font-family: inherit !important;
+}

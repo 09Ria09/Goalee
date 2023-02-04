@@ -1,0 +1,126 @@
+.signContainer {
+    width: 100%;
+    min-height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signMain {
+    background-color: rgb(var(--alb));
+    box-sizing: border-box;
+    width: 400px;
+    border-radius: 1.5em;
+    padding: 20px 50px;
+}
+
+.sign {
+    color: rgb(var(--negru));
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin: 15px;
+}
+
+
+.signMain > form > p{
+    color: rgb(var(--negru));
+    margin: 0;
+    text-align: justify;
+}
+
+
+.un {
+    color: rgb(var(--verde));
+    font-size: 1em;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 5px 10px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-top: 10px;
+    font-family: inherit !important;
+    width: 100%;
+    caret-color: rgba(0, 0, 0, 0.27);
+    font-weight: normal;
+}
+
+.un:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+.signContainer textarea {
+    resize: vertical;
+    text-align: justify !important;
+}
+
+.submit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: rgb(var(--alb));
+    border: 0;
+    padding: 10px 40px;
+    font-size: 1.1em;
+    width: max-content;
+    display: block;
+    margin: auto;
+    transition-duration: 200ms;
+    background-color: rgb(var(--negru));
+}
+
+.submit:hover {
+    background-color: rgb(var(--verde));
+    box-shadow: 0 0 rgba(var(--alb), 0.4);
+}
+
+.forgot, .goToSignIn {
+    text-shadow: 0 0 3px rgba(117, 117, 117, 0.12);
+    color: rgb(var(--alb));
+    margin-top: 15px;
+    width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    transition-duration: 200ms;
+    user-select: none;
+    font-size: 1.1em;
+}
+
+.forgot:hover, .goToSignIn:hover {
+    color: rgb(var(--verde));
+}
+
+@media screen and (max-width: 769px) {
+
+    .signMain {
+        width: 100%;
+        min-height: calc(100vh - 60px);
+        border-radius: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .sign {
+        font-size: 3em;
+    }
+
+    .submit {
+        padding: calc(10px + 0.6em) calc(40px + 0.6em);
+    }
+
+    .sign {
+        margin: calc(15px + 0.6em) 15px;
+    }
+
+    .un {
+        margin-bottom: calc(15px + 0.6em);
+        padding: calc(10px + 0.6em) calc(20px + 0.6em);
+    }
+}

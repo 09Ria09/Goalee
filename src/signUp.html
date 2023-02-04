@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link href="./global.css" rel="stylesheet">
+    <link href="./sign.css" rel="stylesheet">
+    <script src="global.js"></script>
+    <script src="regex.js"></script>
+    <script src="custom.js"></script>
+</head>
+<body>
+<div class="header">
+    <a href="" style="height: 100%"><img src="../img/goalee-logo.png"></a>
+    <a href=""><img src="../img/fbgate.png"></a>
+    <a class="logout" href="../index.html" style="visibility: hidden"><p>Log out</p></a>
+</div>
+<div id="tracker" style="display: none"></div>
+<div class="signContainer">
+    <div class="signMain">
+        <h1 class="sign">Sign Up</h1>
+        <form onsubmit="return false">
+            <input id="username" class="un" name="username" placeholder="User ID"
+                   type="text"/>
+            <p id="idMessage"></p>
+            <input id="password" class="un" name="password" placeholder="Password" type="password"/>
+            <p id="passwordMessage"></p>
+            <input id="name" class="un" name="name" placeholder="Name"
+                   type="text"/>
+            <p id="nameMessage"></p>
+            <input class="un" name="address" placeholder="Address"
+                   type="text"/>
+            <p id="addressMessage"></p>
+            <select id="country" class="un" name="country">
+                <option disabled selected value="">Select Country</option>
+            </select>
+            <p id="countryMessage"></p>
+            <input id="zip" class="un" name="zip" placeholder="Zip Code"
+                   type="text"/>
+            <p id="zipMessage"></p>
+            <input id="email" class="un" name="email" placeholder="Email"
+                   type="text"/>
+            <p id="emailMessage"></p>
+            <select id="gender" class="un" name="Gender">
+                <option disabled selected value="">Select Gender</option>
+                <option value="f">Female</option>
+                <option value="m">Male</option>
+                <option value="nb">Non-binary</option>
+                <option value="pnts">Prefer not to say</option>
+            </select>
+            <p id="genderMessage"></p>
+            <input id="language" class="un" name="language" placeholder="Language"
+                   type="text"/>
+            <p id="languageMessage"></p>
+            <textarea class="un" name="bio" placeholder="Bio"
+                      type="text"></textarea>
+            <p id="bioMessage"></p>
+            <input class="submit" type="submit" value="Sign Up"/>
+        </form>
+    </div>
+</div>
+<script>
+    fillCountries();
+    track();
+    checkRegex();
+    //custom_main();
+</script>
+</body>
+</html>

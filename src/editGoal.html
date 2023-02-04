@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Goal</title>
+    <link href="./global.css" rel="stylesheet">
+    <link href="./editGoal.css" rel="stylesheet">
+    <link href="sign.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/../img/icon.png">
+</head>
+<body>
+<div class="header">
+    <a href="goallist.html" style="height: 100%"><img src="../img/goalee-logo.png"></a>
+    <a href="goallist.html"><img src="../img/fbgate.png"></a>
+    <a class="logout" href = "../index.html"><p> Log out</p></a>
+</div>
+
+    <form class="editForm">
+        <div id="title">
+            <div>
+                <label>Name:
+                    <input required type="text" value="Conquer England!"/></label>
+            </div>
+        </div>
+        <div>
+        <div id="leftSide">
+                <label>Description:<textarea> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent neque neque, suscipit nec turpis euismod, mattis porta lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas dapibus placerat massa eu pretium. In sit amet nisi facilisis, blandit enim quis, bibendum dui. Morbi tincidunt ipsum erat, ac rhoncus nunc finibus eleifend. Duis gravida eget libero sit amet hendrerit. Aenean elementum dolor enim, sed pretium augue cursus nec. Aliquam erat volutpat. Nunc eget purus sit amet neque tincidunt faucibus.
+                  Sed quis tortor non tellus mollis dignissim a sed ligula. Mauris vel dui eget nunc ultrices porta tempus a metus. In imperdiet massa eget turpis suscipit tincidunt. Pellentesque vulputate erat in arcu ultrices, ut aliquet orci scelerisque. Suspendisse potenti. Maecenas dapibus lacus quis lacus pharetra dictum. Nullam porttitor finibus tortor eget consequat. Maecenas ultrices id ipsum ac vulputate. Vivamus porta, nunc id fringilla porttitor, ex elit pretium diam, ac placerat eros elit et lorem. Nulla nec dapibus lacus.</textarea>
+            </label></div>
+    <div id="rightSide">
+                <table>
+                <tr>
+                    <td><label>Type:
+                        <select name="type" required>
+                            <option selected value="monetary">Monetary</option>
+                            <option value="boolean">Boolean</option>
+                            <option value="numeric">Numeric</option>
+                            <option value="task-related">Task Related</option>
+                        </select>
+                    </label></td>
+                    <td><label>Name:
+                        <input type="text" value="Save dollars" required/>
+                    </label></td>
+                    <td><label>Number:
+                        <input type="number" value="10000000" required/>
+                    </label></td>
+                    <td>
+                        <button class="delete">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Type:
+                            <select name="type" required>
+                                <option value="monetary">Monetary</option>
+                                <option selected value="boolean">Boolean</option>
+                                <option value="numeric">Numeric</option>
+                                <option value="task-related">Task Related</option>
+                            </select>
+                        </label></td>
+                    <td>
+                        <label>Name:
+                            <input type="text" value="Get an army" required/>
+                        </label></td>
+                    <td></td>
+                    <td>
+                        <button class="delete">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Type:
+                        <select name="type" required>
+                            <option value="monetary">Monetary</option>
+                            <option selected value="boolean">Boolean</option>
+                            <option value="numeric">Numeric</option>
+                            <option value="task-related">Task Related</option>
+                        </select>
+                    </label></td>
+                    <td><label>Name:
+                        <input type="text" value="Bribe the prime minister" required/>
+                    </label></td>
+                    <td></td>
+                    <td>
+                        <button class="delete">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Type:
+                        <select name="type" required>
+                            <option value="monetary">Monetary</option>
+                            <option value="boolean">Boolean</option>
+                            <option selected value="numeric">Numeric</option>
+                            <option value="task-related">Task Related</option>
+                        </select>
+                    </label></td>
+                    <td><label>Name:
+                        <input type="text" value="Drink water" required/>
+                    </label></td>
+                    <td><label>Number: <input value="7" type="number" required/></label></td>
+                    <td>
+                        <button class="delete">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Type:
+                        <select name="type" required>
+                            <option value="monetary">Monetary</option>
+                            <option value="boolean">Boolean</option>
+                            <option value="numeric">Numeric</option>
+                            <option selected value="task-related">Task Related</option>
+                        </select>
+                    </label></td>
+                    <td><label>Name:
+                        <input type="text" value="Attack!" required/>
+                    </label></td>
+                    <td><label>Task:
+                        <select name="type" required>
+                            <option value="attack-task" selected>Attack Task</option>
+                            <option value="lorem-task">Lorem Task</option>
+                            <option value="ipsum-task">Ipsum Task</option>
+                        </select>
+                    </label></td>
+                    <td>
+                        <button class="delete">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Type:
+                        <select name="type" required>
+                            <option value="monetary">Monetary</option>
+                            <option selected value="boolean">Boolean</option>
+                            <option value="numeric">Numeric</option>
+                            <option value="task-related">Task Related</option>
+                        </select>
+                    </label></td>
+                    <td><label>Name:
+                        <input type="text" value="Enjoy!" required/>
+                    </label></td>
+                    <td></td>
+                    <td>
+                        <button class="delete">Delete</button>
+                    </td>
+                </tr>
+            </table>
+        <button style="display: none" id="add_new_subgoal"><img src="../img/add.png"></button>
+    </div>
+        </div>
+        <div>
+        <button style="margin-left: auto" class="delete">Delete task</button>
+        <button class="update">Add subtask</button>
+        <button style="margin-right: 2vw" class="update">Save task</button>
+        </div>
+    </form>
+</body>
+</html>

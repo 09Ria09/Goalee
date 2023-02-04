@@ -1,0 +1,101 @@
+:root
+{
+    --black: #272932;
+    --white: #FDFDFF;
+    --green: #50A060;
+}
+body
+{
+    font-family: 'Alef',sans-serif;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green);
+}
+.logo img
+{
+    height: 55vh;
+}
+.input
+{
+    margin: 0.3vh;
+    background-color: var(--white);
+    display: flex;
+    height: 6vh;
+    width: 37vh;
+    border-radius: 1em;
+    border-style: solid;
+}
+.input img
+{
+    align-self: center;
+    opacity: 0.5;
+    height: 60%;
+    margin: 1.5vh;
+}
+.input a
+{
+    display: flex;
+    height:100%;
+    align-self: center;
+}
+.input input
+{
+    width:60%;
+    outline:none;
+    border: none;
+    border-radius:0;
+    font-size: 2vh;
+}
+.login
+{
+    margin: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login input
+{
+    cursor: pointer;
+    margin:0;
+    background-color: var(--black);
+    color: var(--white);
+    height: 6vh;
+    width: 15vh;
+    border-radius: 2em;
+    border-style: solid;
+    border-color: var(--black);
+    font-size: 2vh;
+}
+.extratext
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.extratext a
+{
+    color: var(--black);
+}
+.icons
+{
+    display: flex;
+    justify-content: center;
+}
+.icons a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons a img
+{
+    height:75%;
+}
+#pwdimg
+{
+    cursor: pointer;
+}
